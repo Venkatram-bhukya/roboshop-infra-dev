@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket  = "remote-state-aws-20s-dev.1" # Replace with your unique bucket name
-    key     = "roboshop-dev-db"
+    key     = "roboshop-dev-bastion"
     region  = "us-east-1"
     encrypt = true
     use_lockfile   = true
